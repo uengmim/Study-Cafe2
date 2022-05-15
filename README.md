@@ -12,10 +12,13 @@
 4. 언제 어디서나 퇴실 버튼으로 퇴실 가능 기능
 
 ## Back
-**JSP + Sevlet**<br>
+**JSP + JavaScript + Sevlet**<br>
+![server](https://user-images.githubusercontent.com/72143238/168475611-287bf22f-504e-4e37-9930-f5f6cc805001.JPG)
 
 ## Front
 **HTML + CSS + React**<br>
+![front](https://user-images.githubusercontent.com/72143238/168475604-4c84d3ec-9d34-4643-99b9-e8438cd129ef.JPG)
 
 ## Database
 **MYSQL**<br> 
+![database](https://user-images.githubusercontent.com/72143238/168475614-4a628016-c508-410c-93b8-e833f97fb44c.JPG)
