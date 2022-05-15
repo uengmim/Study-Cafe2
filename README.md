@@ -13,7 +13,7 @@
 
 ## Back
 **JSP + JavaScript + Sevlet**<br>
-# server
+server
 ![server](https://user-images.githubusercontent.com/72143238/168475611-287bf22f-504e-4e37-9930-f5f6cc805001.JPG)
 
 ## Front
