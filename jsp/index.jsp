@@ -10,7 +10,7 @@
 	<form action="./userJoinAction.jsp" method="post">
 	<input type="text" name="US_ID">
 	<input type="password" name="US_PW">
-	<input type="submit" value="È¸¿ø°¡ÀÔ">
+	<input type="submit" value="ÃˆÂ¸Â¿Ã¸Â°Â¡Ã€Ã”">
 	</form>
 </body>
 </html>
