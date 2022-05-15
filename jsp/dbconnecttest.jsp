@@ -4,28 +4,28 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>MariaDB ¿¬°á</title>
+<title>MariaDB ì—°ê²°</title>
 </head>
 <body>
-	<h3>µ¥ÀÌÅÍº£ÀÌ½º ¿¬°á Å×½ºÆ®</h3>
+	<h3>ë°ì´í„°ë² ì´ìŠ¤ ì—°ê²° í…ŒìŠ¤íŠ¸</h3>
 	<%
 		Connection conn = null;
 		Statement state = null;
 		ResultSet re = null;
 		String driver = "org.gjt.mm.mysql.Driver";
 		
-		// 							dbÁÖ¼Ò : Æ÷Æ®¹øÈ£/db¸í
+		// 							dbì£¼ì†Œ : í¬íŠ¸ë²ˆí˜¸/dbëª…
 		String url = "jdbc:mysql://localhost:3306/mysql21";
-		String uId = "root";	// À¯Àú ID
-		String uPw = "kbc0924";	// À¯Àú PW
+		String uId = "root";	// ìœ ì € ID
+		String uPw = "kbc0924";	// ìœ ì € PW
 		try{
 			Class.forName(driver);
 			conn = DriverManager.getConnection(url, uId, uPw);
 			if(conn != null){
-				out.println("µ¥ÀÌÅÍº£ÀÌ½º ¿¬°á ¼º°ø!!");
+				out.println("ë°ì´í„°ë² ì´ìŠ¤ ì—°ê²° ì„±ê³µ!!");
 			}
 			else{
-				out.println("µ¥ÀÌÅÍº£ÀÌ½º ¿¬°á ½ÇÆÐ..");
+				out.println("ë°ì´í„°ë² ì´ìŠ¤ ì—°ê²° ì‹¤íŒ¨..");
 			}
 		}
 		catch(Exception e){
